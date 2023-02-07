@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use App\Models\Bbb;
 
-class AlphabetBCreated
+class AlphabetBCreated implements ShouldQueue
 {
     /**
      * Create the event listener.

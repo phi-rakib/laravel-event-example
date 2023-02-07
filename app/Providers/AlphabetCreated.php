@@ -13,7 +13,7 @@ use App\Models\Alphabet;
 
 class AlphabetCreated
 {
-    use Dispatchable, InteractsWithSockets, SerializesModels;
+    use Dispatchable, InteractsWithSockets;
 
     public $alphabet;
 
